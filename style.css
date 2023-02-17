@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffbe0b;
+    min-width: 400px;
+}
+
+/*
+
+coolor palette
+
+yellow color -> #ffbe0b
+orange color -> #fb5607
+pink color -> #ff006e
+purple color -> #8338ec
+blue color -> #3a86ff
+
+*/
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ff006e;
+    margin-bottom: 4px;
+}
+
+button {
+    background: #ff006e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background: white;
+    color: #ff006e;
+}
+
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #3a86ff;
+}
